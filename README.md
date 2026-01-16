@@ -15,6 +15,8 @@ Clash Controller CLI (cccli) is a small Bash utility that installs and manages a
 - `sudo` privileges
 - `wget`, `gunzip`
 - amd64/x86_64 only (the bundled asset is `mihomo-linux-amd64-compatible`)
+- Permission to create and use a TUN device (typically allowed on a normal Linux host)
+- Permission to adjust routing/DNS for TUN (usually blocked in containers)
 
 ## Installation
 
